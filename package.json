@@ -14,11 +14,11 @@
         "@shopify/prettier-plugin-liquid": "^1.10.2",
         "esbuild": "^0.28.0",
         "gray-matter": "^4.0.3",
-        "jsdom": "^29.0.2",
+        "jsdom": "^29.1.1",
         "lightningcss-cli": "^1.32.0",
-        "playwright": "^1.59.1",
-        "prettier": "^3.8.2",
-        "stylelint": "^17.7.0",
+        "playwright": "^1.60.0",
+        "prettier": "^3.8.3",
+        "stylelint": "^17.11.1",
         "stylelint-config-standard": "^40.0.0",
         "stylelint-order": "^8.1.1"
     }
