@@ -8,7 +8,7 @@ stylesheets:
 title: JMAP Software Implementations
 description: >-
     Open source and proprietary software implementing the JMAP protocol —
-    clients, servers, libraries, and proxies.
+    clients, servers, libraries, tools, and proxies.
 hero:
     eyebrow: Software
     eyebrow_icon: command-line
@@ -52,10 +52,6 @@ sections:
             body: >-
                 A sophisticated demo webmail client to be used as a base for
                 new projects.
-          - title: "JMAP::Tester"
-            href: https://metacpan.org/pod/JMAP::Tester
-            languages: [Perl, Perl5]
-            body: A JMAP client made for testing JMAP servers.
           - title: JMAP Webmail
             href: https://github.com/root-fr/jmap-webmail
             languages: [TypeScript]
@@ -69,20 +65,11 @@ sections:
           - title: Mailtemi
             href: https://mailtemi.com
             body: A native iOS/Android email client.
-          - title: mjmap
-            href: https://git.sr.ht/~rockorager/mjmap
-            languages: [Go]
-            license: MPL-2.0
-            body: A sendmail-compatible command line JMAP client.
           - title: meli
             href: https://meli.delivery
             languages: [Rust]
             license: GPLv3
             body: Terminal email client.
-          - title: mujmap
-            href: https://github.com/elizagamedev/mujmap
-            languages: [Rust]
-            body: Synchronize JMAP mail with notmuch.
           - title: Parula
             href: https://parula.beonex.com
             body: >-
@@ -92,15 +79,6 @@ sections:
             href: https://github.com/linagora/tmail-flutter
             languages: [Dart]
             body: Android, iOS and web client.
-          - title: xin
-            href: https://github.com/onevcat/xin
-            languages: [Rust]
-            license: MIT
-            body: >-
-                AI-first JMAP command line client built for LLM agents and
-                automation (Fastmail-first). Emits stable JSON by default and
-                covers search, read, send, drafts, labels, batch actions and a
-                streaming watch mode for inbox changes.
     - label: Servers
       items:
           - title: Apache James
@@ -257,6 +235,39 @@ sections:
                 A robust, type-safe SDK for building JMAP client applications
                 in TypeScript, with an extensible plugin architecture
                 supporting standard and vendor capabilities.
+    - label: Tools
+      items:
+          - title: "JMAP::Tester"
+            href: https://metacpan.org/pod/JMAP::Tester
+            languages: [Perl, Perl5]
+            body: A JMAP client made for testing JMAP servers.
+          - title: mjmap
+            href: https://git.sr.ht/~rockorager/mjmap
+            languages: [Go]
+            license: MPL-2.0
+            body: A sendmail-compatible command line JMAP client.
+          - title: mujmap
+            href: https://github.com/elizagamedev/mujmap
+            languages: [Rust]
+            body: Synchronize JMAP mail with notmuch.
+          - title: xin
+            href: https://github.com/onevcat/xin
+            languages: [Rust]
+            license: MIT
+            body: >-
+                AI-first JMAP command line client built for LLM agents and
+                automation (Fastmail-first). Emits stable JSON by default and
+                covers search, read, send, drafts, labels, batch actions and a
+                streaming watch mode for inbox changes.
+          - title: Vandelay
+            href: https://github.com/stalwartlabs/vandelay
+            languages: [Rust]
+            license: MIT/Apache
+            body: >-
+                One-shot account migration and backup utility for JMAP. It 
+                imports an account from a wide range of source protocols (JMAP, 
+                IMAP, CalDAV, CardDAV, WebDAV, ManageSieve, Maildir, Google 
+                Takeout and MS Exchange) and exports it into a target JMAP server.
     - label: Proxies
       items:
           - title: JMAP-to-IMAP Proxy
